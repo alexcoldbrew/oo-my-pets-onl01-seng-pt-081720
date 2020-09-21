@@ -29,6 +29,8 @@ class Owner
     @@all.size
   end
   
+  # GAVE ME TOO MUCH TROUBLE.
+  
   def cats
     Cat.all.select{|cat| cat.owner == self}
   end
